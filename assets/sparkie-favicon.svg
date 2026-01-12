@@ -1,0 +1,23 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head -->
+  <circle cx="50" cy="50" r="45" fill="#59E5D0"/>
+  <!-- Highlight -->
+  <circle cx="32" cy="27" r="8" fill="white" opacity="0.35"/>
+  <!-- Left Bolt -->
+  <text x="22" y="28" font-size="18" fill="#FACC15" transform="rotate(-20, 22, 28)">⚡</text>
+  <!-- Right Bolt -->
+  <text x="78" y="28" font-size="18" fill="#FACC15" transform="rotate(20, 78, 28) scale(-1,1) translate(-156,0)">⚡</text>
+  <!-- Left Eye -->
+  <ellipse cx="38" cy="48" rx="8" ry="10" fill="white"/>
+  <circle cx="38" cy="50" r="4" fill="#111827"/>
+  <circle cx="36" cy="47" r="1.5" fill="white"/>
+  <!-- Right Eye -->
+  <ellipse cx="62" cy="48" rx="8" ry="10" fill="white"/>
+  <circle cx="62" cy="50" r="4" fill="#111827"/>
+  <circle cx="60" cy="47" r="1.5" fill="white"/>
+  <!-- Cheeks -->
+  <ellipse cx="32" cy="62" rx="5" ry="2" fill="gray" opacity="0.35"/>
+  <ellipse cx="68" cy="62" rx="5" ry="2" fill="gray" opacity="0.35"/>
+  <!-- Smile -->
+  <path d="M 38 68 Q 50 78 62 68" stroke="#111827" stroke-width="3" stroke-linecap="round" fill="none"/>
+</svg>
